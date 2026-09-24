@@ -5,7 +5,7 @@ on:
 
 jobs:
   run_unit_tests:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - run: python3 -m unittest orig/unit_testing/test_math_lib.py
